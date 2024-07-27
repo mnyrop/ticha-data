@@ -1,0 +1,17 @@
+About the all lists XML format for FLEx exports:
+Export all lists into a single XML file. Data in all checked vernacular and analysis writing systems will be exported.
+
+If you want to convert this xml export to a htm file that displays nicely in a browser:
+
+1. Copy AllListsHTMLS.xsl from "c:\Program Files\SIL\FieldWorks 9\Language Explorer\Export Templates" to the directory of your xml file.
+
+2. In Windows File Explorer open the directory with your exported xml file, then in the edit box near the top, replace the path of your current directory with "powershell" and press Enter. This will open a powershell window on this directory.
+
+3. Copy the following lines into the powershell window and press Enter.
+$x = New-Object System.Xml.Xsl.XslCompiledTransform;
+$x.load( "AllListsHTMLS.xsl" )
+
+4. Copy the following line to the powershell window, but before executing it, replace both AllLists with the name of your xml file. You'll have to use arrow keys to move in the line to edit it. Then press Enter.
+$x.Transform( "AllLists.xml", "AllLists.htm" )
+
+5. You should then have an .htm file that you can open in a browser.

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ldml>
+	<identity>
+		<version number="" />
+		<generation date="2023-07-19T19:50:36Z" />
+		<language type="es" />
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity windowsLCID="2058" />
+		</special>
+	</identity>
+	<characters>
+		<exemplarCharacters>[\-A-Za-z{A\u0301}{E\u0301}{I\u0301}{N\u0303}{O\u0301}{U\u0301}{U\u0308}{a\u0301}{e\u0301}{i\u0301}{n\u0303}{o\u0301}{u\u0301}{u\u0308}]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[\u00AA\u00BA\u00E0\u00E2-\u00E8\u00EA-\u00EC\u00EE\u00F2\u00F4\u00F6\u00F8\u00F9\u00FB\u00FF\u0101\u0103\u0113\u0115\u012B\u012D\u014D\u014F\u0153\u016B\u016D]</exemplarCharacters>
+		<exemplarCharacters type="index">[A-Z\u00D1]</exemplarCharacters>
+		<exemplarCharacters type="punctuation">[\ -"\$%'-),./\:;=?@\[\]\{\}\u00A1\u00AB\u00BB\u00BF\u2014\u2018\u2019\u201C\u201D]</exemplarCharacters>
+	</characters>
+	<layout>
+		<orientation>
+			<characterOrder>left-to-right</characterOrder>
+		</orientation>
+	</layout>
+	<collations>
+		<defaultCollation>standard</defaultCollation>
+		<collation type="standard" />
+	</collations>
+	<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+		<sil:external-resources>
+			<sil:font name="Times New Roman" types="default" />
+			<sil:font name="Charis SIL" types="default" />
+		</sil:external-resources>
+	</special>
+</ldml>
