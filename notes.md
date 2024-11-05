@@ -1,6 +1,4 @@
-# ticha-data
-
-spelunking & notes
+# notes
 
 ## handwritten 
 

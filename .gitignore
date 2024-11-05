@@ -1,0 +1,4 @@
+downloads/*
+Gemfile.lock
+.DS_Store
+data/pdfs/*.pdf
